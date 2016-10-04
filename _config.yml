@@ -1,2 +1,21 @@
 name: Apping Resource
 markdown: kramdown
+
+# Site settings
+title: Apping Resource
+description: Student perspectives on Universities.
+baseurl: "" # optional
+url: "https://appingresource.github.io"
+#twitter_username: foo_bar
+#github_username: foo_bar
+github_repo: AppingResource/AppingResource.github.io
+#google_analytics: UA-80085-YOUR-ID
+# disqus: disqus-id
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap

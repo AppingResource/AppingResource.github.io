@@ -2,14 +2,11 @@
 layout: default
 title: Apping Resource
 ---
+<h1> Apping resource </h1>
+<h2> On this website you'll find student perspectives on various Universities and programs across the globe</h2>
+<ul class="posts">
 
-Apping Resource
-===============
-	<h1> Apping resource </h1>
-	<h2> On this website you'll find student perspectives on various Universities and programs across the globe</h2>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

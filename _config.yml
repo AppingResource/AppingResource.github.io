@@ -9,7 +9,7 @@ github_repo: AppingResource/AppingResource.github.io
 #google_analytics: UA-80085-YOUR-ID
 # disqus: disqus-id
 #permalink: /:title/
-
+github_repo:AppingResource/AppingResource.github.io
 # Build settings
 markdown: kramdown
 permalink: pretty

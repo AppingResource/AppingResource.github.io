@@ -8,7 +8,7 @@ url: "https://appingresource.github.io"
 github_repo: AppingResource/AppingResource.github.io
 #google_analytics: UA-80085-YOUR-ID
 # disqus: disqus-id
-permalink: /:title/
+#permalink: /:title/
 
 # Build settings
 markdown: kramdown

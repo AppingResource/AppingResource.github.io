@@ -8,9 +8,13 @@ lastmod: 2014-07-07T16:57:30+05:30
 ---
 {% for post in paginator.posts %}
 <div class="unit whole single-post-excerpt">
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<h3 class='alignleft'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <span class="meta alignright"><time class="timeago postlist-meta" datetime="{{ post.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ post.date | date: "%B %-d, %Y" }}</time></span>
+    <div style="clear: both;"></div>
 	<div class="meta-info">
-		<span class="meta"><time class="timeago postlist-meta" datetime="{{ post.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ post.date | date: "%B %-d, %Y" }}</time></span>
+        <span class="alignleft">By <a href='{{ post.website }}'>{{ post.author }} </a></span>
+
+        <div class="alignright">
 		{% if post.tags and post.tags.size > 0 %}
 			<div class="tags">
 				Tagged:
@@ -19,8 +23,9 @@ lastmod: 2014-07-07T16:57:30+05:30
 				{% endfor %}
 			</div>
 		{% endif %}
+        </div>
+        <div style="clear: both;"></div>
 	</div>
-	<p class="description">{{ post.excerpt | strip_html}}</p>
 </div>
 {% endfor %}
 <div class="unit whole paginator">

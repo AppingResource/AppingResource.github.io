@@ -1,16 +1,13 @@
-<header id="main-header">
-  <div id="site-title">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-  </div>
-  <div class="links">
-  {% assign current = page.title %}
-  <a href="{{ site.baseurl }}/" class="page-link{% if current == null %} active{% endif %}">Apping Resource</a>
-  {% if site.github_repo %}
-  <a href="http://github.com/{{ site.github_repo }}"
-    target="_blank"
-    class="page-link github-link">
-    <img src="{{ "/images/github-repo.png" | prepend: site.baseurl }}" alt="Github Repository">
-    Source</a>
-  {% endif %}
-  </div>
+<header>
+  <h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
+  <nav class="main-nav">
+    <a href="#" class="opener show-on-mobiles">...</a>
+    <div class="clear-opener show-on-mobiles"></div>
+    <div class="grid">
+      <ul>
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="/about.html"><i class="fa fa-info-circle"></i>About</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>

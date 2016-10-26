@@ -7,7 +7,6 @@ email: ashwinpp@stanford.edu
 website: http://stanford.edu/~ashwinpp/
 tags: MS, Stanford, CS
 ---
-
 # Academics
 Stanford offers a 2 year Masters program in Computer Science. 
 The MS program is primarily composed of courses. According to the [course requirements](http://cs.stanford.edu/degrees/mscs/classes/planning/) you would need to do 45 units of credits, which is roughly 12-15 courses typically 2 years (5-6 quarters).

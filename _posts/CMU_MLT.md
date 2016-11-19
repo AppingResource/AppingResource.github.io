@@ -16,10 +16,12 @@ MLT is a 2-year research-based Masters program unlike most other professional Ma
 
 Pros:
 1) Funded (Most likely)
+
 2) Good for continuing to a PhD, equally good for going to industry as well
 
 Cons:
 1) This program takes full 2 years. You can get a professional Masters in CMU in 16 months.
+
 2) You need to do research even if you don't want to.
 
 # Costs
